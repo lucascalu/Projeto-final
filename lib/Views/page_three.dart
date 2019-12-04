@@ -42,7 +42,23 @@ class _PageThreeState extends State<PageThree> {
               controller: _resistController),
           buildTextResult(),
           buildCalculateButton(),
+          resetFields()
         ],
+      ),
+    );
+  }
+  
+  Widget resetFields(){
+      return Padding(
+      padding: EdgeInsets.fromLTRB(15, 0, 15, 15),
+      child: RaisedButton(
+        color: Colors.red,
+        onPressed: () {
+          _correnteController.text = "";
+          _resistController.text ='';
+        },
+        child: Text('REINICIAR CAMPOS',
+            style: TextStyle(color: Colors.black, fontSize: 15.0)),
       ),
     );
   }

@@ -42,7 +42,23 @@ class _PageOneState extends State<PageOne> {
               controller: _correnteController),
           buildTextResult(),
           buildCalculateButton(),
+          resetFields()
         ],
+      ),
+    );
+  }
+
+  Widget resetFields(){
+      return Padding(
+      padding: EdgeInsets.fromLTRB(15, 0, 15, 15),
+      child: RaisedButton(
+        color: Colors.red,
+        onPressed: () {
+          _tensaoController.text = "";
+          _correnteController.text ='';
+        },
+        child: Text('REINICIAR CAMPOS',
+            style: TextStyle(color: Colors.black, fontSize: 15.0)),
       ),
     );
   }
