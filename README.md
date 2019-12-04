@@ -1,16 +1,13 @@
-# projeto_final
+# Calculadora de grandezas elétricas
 
-A new Flutter project.
+Aplicativo desenvolvido para o projeto final de programação para dispositivos móvies
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![app_image](https://user-images.githubusercontent.com/54122213/70173332-605dbd80-16b1-11ea-9b15-9b7b1a32cba8.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Desenvolvido por
+Leonardo Bruno Rodrigues Ra: 0040481821017
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Lucas Schiavon Calu Ra: 0040481821011
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Alan Vidal da Fonseca Ra: 0040481821048
